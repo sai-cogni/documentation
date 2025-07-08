@@ -1,0 +1,17 @@
+{
+	"name": "phoenix-docs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "mintlify dev",
+		"build": "echo 'Building for GitHub Pages...' && mkdir -p dist && cp -r . dist/ && echo 'Build complete!'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"mintlify": "^4.0.538"
+	}
+}
